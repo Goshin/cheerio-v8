@@ -2,10 +2,10 @@
  * Export cheerio (with )
  */
 
-exports = module.exports = require('./lib/cheerio');
+cheerio = require('./lib/cheerio');
 
 /*
   Export the version
 */
 
-exports.version = require('./package').version;
+cheerio.version = require('./package').version;
